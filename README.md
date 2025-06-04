@@ -7,14 +7,23 @@ Este proyecto es una pequeña aplicación web que muestra una lista de productos
 ## 📁 Estructura del proyecto
 │
 ├── filtro.html
+
 ├── filtro.css
+
 ├── filtro.js
+
 ├── imagenes/
+
 │ ├── bota-azul.jpg
+
 │ ├── bota-negra.jpg
+
 │ ├── taco-azul.jpg
+
 │ ├── taco-negro.jpg
+
 │ └── zapato-rojo.jpg
+
 └── README.md
 
 

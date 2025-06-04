@@ -76,30 +76,30 @@ Git & GitHub: Control de versiones y hospedaje del código.
 ---
 
 ## 📝 Cambios y mejoras incluidas
-Correcciones en el HTML:
+1. Correcciones en el HTML:
 
-Se corrigió la ruta a filtro.js.
+  - Se corrigió la ruta a filtro.js.
 
-Se añadió la clase input en el campo de búsqueda para seleccionarlo fácilmente en JS.
+  - Se añadió la clase input en el campo de búsqueda para seleccionarlo fácilmente en JS.
 
-Se especificó lang="es" en la etiqueta <html> para mejor accesibilidad.
+  - Se especificó lang="es" en la etiqueta <html> para mejor accesibilidad.
 
-Optimización en CSS:
+2. Optimización en CSS:
 
-Uso de flex-wrap: wrap y gap en el contenedor de productos para mejor adaptabilidad.
+  - Uso de flex-wrap: wrap y gap en el contenedor de productos para mejor adaptabilidad.
 
-Ajustes en el tamaño de cada producto para mantener proporciones.
+  - Ajustes en el tamaño de cada producto para mantener proporciones.
 
-Refactor en JavaScript:
+3. Refactor en JavaScript:
 
-Se corrigió getElementsByName → getElementById("lista-de-productos") para apuntar correctamente al contenedor.
+  - Se corrigió getElementsByName → getElementById("lista-de-productos") para apuntar correctamente al contenedor.
 
-Se creó la función crearProducto(producto) para evitar duplicar código al generar cada tarjeta de producto.
+  - Se creó la función crearProducto(producto) para evitar duplicar código al generar cada tarjeta de producto.
 
-El filtrado ahora ignora mayúsculas/minúsculas (se usa toLowerCase()).
+  - El filtrado ahora ignora mayúsculas/minúsculas (se usa toLowerCase()).
 
-Se añade un mensaje “No se encontraron productos.” si la búsqueda no arroja resultados.
+  - Se añade un mensaje “No se encontraron productos.” si la búsqueda no arroja resultados.
 
-Se utiliza .trim() en el valor del input para evitar espacios al inicio/final.
+  - Se utiliza .trim() en el valor del input para evitar espacios al inicio/final.
 
-Comentarios que explican cada bloque y la razón de cada cambio.
+  - Comentarios que explican cada bloque y la razón de cada cambio.

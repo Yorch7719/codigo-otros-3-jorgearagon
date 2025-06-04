@@ -62,7 +62,9 @@ Haz clic en el botón Filtrar.
 
 Verás cómo la lista de productos se actualiza mostrando únicamente aquellos que coinciden con el texto ingresado.
 
-🛠️ Tecnologías y herramientas
+---
+
+## 🛠️ Tecnologías y herramientas
 HTML5: Estructura de la página.
 
 CSS3: Estilos básicos y diseño responsivo con Flexbox.
@@ -71,7 +73,9 @@ JavaScript (Vanilla JS): Lógica de filtrado y manipulación del DOM.
 
 Git & GitHub: Control de versiones y hospedaje del código.
 
-📝 Cambios y mejoras incluidas
+---
+
+## 📝 Cambios y mejoras incluidas
 Correcciones en el HTML:
 
 Se corrigió la ruta a filtro.js.

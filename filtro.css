@@ -1,13 +1,17 @@
+/* === Estilo para el input de la búsqueda === */
 input {
   width: 500px;
   height: 40px;
   font-size: 18px;
 }
-
+/* === Contenedor de productos === */
 #lista-de-productos {
-  display: flex
+  display: flex;
+  flex-wrap: wrap; /* Permite que se acomoden bien al reducir pantalla */
+  gap: 10px;
 }
 
+/* === Estilo de cada producto a mostrar === */
 .producto {
   width: 200px;
   height: 200px;
@@ -16,8 +20,10 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around; /* Se agrega para poder mejorar la estetica. */
 }
 
+/* === Imagen del producto === */
 .producto img {
   width: 70%;
   height: auto
